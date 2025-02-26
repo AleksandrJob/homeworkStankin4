@@ -26,11 +26,11 @@ namespace homeworkStankin4
             }
             else
             {
-                Print(createList(minNumber, maxNumber, step));
+                Print(createMassive(minNumber, maxNumber, step));
             }
 
         }
-        static int[] createList(int minNumber, int maxNumber, int step)
+        static int[] createMassive(int minNumber, int maxNumber, int step)
         {
             int[] numbers = new int[];
             for (int i = minNumber; i <= maxNumber; i += step)
